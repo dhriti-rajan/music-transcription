@@ -19,6 +19,7 @@ being played at a time, but also which voicing of each chord is being played.
 2) TODO: Develop a testing framework (compare the resulting .xml files outputted
    by the model to the .xml files downloaded from dataset, and return accuracy
    measures).
+   - First, we'll attempt simple pitch estimation with dataset 1.
    
 3) TODO: Evaluate different types of models on the dataset to determine which 
    seem to be the best for each task.

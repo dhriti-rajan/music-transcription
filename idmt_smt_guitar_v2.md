@@ -35,3 +35,9 @@
 - Files stored with 16 Bit depth.
 - Annotations regarding onset positions, chords, rhythmic pattern length, and
   texture (monophony/polyphony) are included in various file formats.
+
+## Annotation Parsing
+- Chord instances (as opposed to single notes) are denoted by events with
+  overlapping onset/offset ranges.
+- Need to determine how pitches map to notes/octaves.
+
